@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-// import PropTypes from "prop-types";
 
 export class navbar extends Component {
-//   static propTypes = {};
 
   render() {
     return (
@@ -25,7 +23,7 @@ export class navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -34,6 +32,18 @@ export class navbar extends Component {
                   About
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="/">business</a></li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="/">health</a></li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="/">science</a></li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="/">sports</a></li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="/">technology</a></li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="/">general</a></li>
             </ul>
           </div>
         </div>
