@@ -6,7 +6,7 @@ export class navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             The Morning Newsletter
