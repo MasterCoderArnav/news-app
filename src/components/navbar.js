@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 export class navbar extends Component {
-
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
@@ -29,17 +28,35 @@ export class navbar extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/business">Business</Link></li>
+                <Link className="nav-link" aria-current="page" to="/business">
+                  Business
+                </Link>
+              </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/health">Health</Link></li>
+                <Link className="nav-link" aria-current="page" to="/health">
+                  Health
+                </Link>
+              </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/science">Science</Link></li>
+                <Link className="nav-link" aria-current="page" to="/science">
+                  Science
+                </Link>
+              </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/sports">Sports</Link></li>
+                <Link className="nav-link" aria-current="page" to="/sports">
+                  Sports
+                </Link>
+              </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/technology">Technology</Link></li>
+                <Link className="nav-link" aria-current="page" to="/technology">
+                  Technology
+                </Link>
+              </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/general">General</Link></li>
+                <Link className="nav-link" aria-current="page" to="/general">
+                  General
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
